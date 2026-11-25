@@ -1,0 +1,154 @@
+html
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height: 100%;
+    width: 100%;
+    background: url("background_og_optimized.jpg") center bottom no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: #333;
+    font-family: 'Montserrat';
+    padding-bottom: 25px;
+}
+
+h1, h2, subtitle
+{
+    background: rgba(2,200,200,0.7);
+}
+
+h1, h2
+{
+    display: inline;
+}
+
+h1.title
+{
+    font-family: 'Lobster', cursive;
+    text-shadow: 8px 8px 0px black;
+    color: yellow;
+    word-wrap: break-word;
+    font-size: 4.1em;
+}
+
+subtitle
+{
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: lightgoldenrodyellow;
+}
+
+.job-title
+{
+    color: lightgoldenrodyellow;
+}
+
+.subtitle-container, .bio-container
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bio-container
+{
+    background: rgba(2,200,200,0.7);
+    padding: 2px 5px;
+}
+
+.fa-big
+{
+    font-size: 2.5em;
+}
+
+.fa-md
+{
+    font-size: 2em;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.description-parent
+{
+    background: rgba(2,200,200,0.7);
+    margin-bottom: 15px;
+    padding: 2px 5px;
+}
+
+.description-parent i
+{
+    line-height: 50px;
+    color: #EFEFEF;
+    text-shadow: 1px 1px 1px black;
+    width: 50px;
+}
+
+.description p:first-child
+{
+    font-weight: bold;
+}
+
+.description p:last-child
+{
+    color: #EFEFEF;
+    font-style: italic;
+}
+
+.description p
+{
+    margin-bottom: 0;
+    margin-left: 25px;
+}
+
+.description-parent i
+{
+    transition: color 0.5s;
+}
+
+.description-parent:hover i
+{
+    color: yellow;
+    transition: color 0.5s;
+}
+
+.button-bar
+{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button-bar i
+{
+    margin-right: 15px;
+    color: rgba(2,200,200, 1);
+    text-shadow: 1px 1px 1px black;
+    transition: color 0.5s;
+}
+
+.button-bar i:hover
+{
+    color: yellow;
+    transition: color 0.5s;
+}
+
+.fa-industry
+{
+    margin-bottom: 333px;
+}
+
+/* Responsive Media Queries */
+@media (min-width: 768px) {
+    h1.title { font-size: 5em; }
+}
+
+@media (min-width: 1240px) {
+    h1.title { font-size: 7em }
+}
